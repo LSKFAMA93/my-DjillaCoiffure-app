@@ -19,6 +19,8 @@ npm run preview
 
 Les photos du salon sont servies depuis `public/images/`. Les demandes de rendez-vous sont transmises à WhatsApp ; elles ne sont pas enregistrées dans une base de données.
 
+L'icône Android est générée à partir de `assets/icon.svg` à chaque compilation GitHub Actions.
+
 ## Générer l'APK sur GitHub
 
 Le workflow GitHub Actions [`.github/workflows/build-android-apk.yml`](.github/workflows/build-android-apk.yml) compile automatiquement un APK de test après chaque push. Il peut aussi être lancé manuellement depuis l'onglet **Actions** du dépôt avec **Build Android APK** → **Run workflow**.

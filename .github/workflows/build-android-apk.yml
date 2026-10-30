@@ -44,6 +44,9 @@ jobs:
       - name: Create Android project
         run: npx cap add android
 
+      - name: Generate hairstyle app icon
+        run: npx @capacitor/assets generate --android --iconBackgroundColor '#f8f6f0'
+
       - name: Sync web app to Android
         run: npx cap sync android
 
