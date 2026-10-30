@@ -21,7 +21,7 @@ Les photos du salon sont servies depuis `public/images/`. Les demandes de rendez
 
 ## Générer l'APK sur GitHub
 
-Le workflow GitHub Actions [`../.github/workflows/build-android-apk.yml`](../.github/workflows/build-android-apk.yml) compile automatiquement un APK de test après chaque push. Il peut aussi être lancé manuellement depuis l'onglet **Actions** du dépôt avec **Build Android APK** → **Run workflow**.
+Le workflow GitHub Actions [`.github/workflows/build-android-apk.yml`](.github/workflows/build-android-apk.yml) compile automatiquement un APK de test après chaque push. Il peut aussi être lancé manuellement depuis l'onglet **Actions** du dépôt avec **Build Android APK** → **Run workflow**.
 
 Une fois l'exécution terminée, ouvrez-la dans **Actions**, puis téléchargez l'artefact `223-djilla-coiffure-android-apk`. L'archive contient `app-debug.apk`, installable sur un appareil Android pour tester l'application.
 
